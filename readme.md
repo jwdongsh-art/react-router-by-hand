@@ -19,7 +19,7 @@
 ### 项目最终结构
 
 ```
-my-router-app/
+react-router-by-hand/
 ├── public/
 │   └── index.html
 ├── src/
@@ -98,10 +98,10 @@ npm --version
 
 ```bash
 # 1. 创建项目
-npx create-react-app my-router-app
+npx create-react-app react-router-by-hand
 
 # 2. 进入项目目录
-cd my-router-app
+cd react-router-by-hand
 
 # 3. 安装 react-router-dom
 npm install react-router-dom
@@ -114,8 +114,8 @@ npm start
 
 ```bash
 # 1. 创建项目目录
-mkdir my-router-app
-cd my-router-app
+mkdir react-router-by-hand
+cd react-router-by-hand
 
 # 2. 初始化 package.json
 npm init -y
@@ -141,7 +141,7 @@ mkdir public
 
 ```json
 {
-  "name": "my-router-app",
+  "name": "react-router-by-hand",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -1069,14 +1069,14 @@ body {
 #!/bin/bash
 
 # 创建项目目录
-mkdir -p my-router-app/src/{pages,components}
-mkdir -p my-router-app/public
-cd my-router-app
+mkdir -p react-router-by-hand/src/{pages,components}
+mkdir -p react-router-by-hand/public
+cd react-router-by-hand
 
 # 创建 package.json
 cat > package.json << 'EOF'
 {
-  "name": "my-router-app",
+  "name": "react-router-by-hand",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -1142,7 +1142,7 @@ echo "运行 npm install 安装依赖，然后 npm start 启动项目。"
 
 ```bash
 # 进入项目目录
-cd my-router-app
+cd react-router-by-hand
 
 # 安装所有依赖
 npm install
@@ -1162,7 +1162,7 @@ npm start
 ```
 Compiled successfully!
 
-You can now view my-router-app in the browser.
+You can now view react-router-by-hand in the browser.
 
   Local:            http://localhost:3000
   On Your Network:  http://192.168.x.x:3000
@@ -1261,8 +1261,8 @@ npm install -D react-scripts@5.0.1
 
 ```bash
 # 1. 创建项目（使用 Create React App 最简方式）
-npx create-react-app my-router-app
-cd my-router-app
+npx create-react-app react-router-by-hand
+cd react-router-by-hand
 npm install react-router-dom
 
 # 2. 删除默认文件，创建自己的组件

@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # 创建项目目录
-mkdir -p my-router-app/src/{pages,components}
-mkdir -p my-router-app/public
-cd my-router-app
+mkdir -p react-router-by-hand/src/{pages,components}
+mkdir -p react-router-by-hand/public
+cd react-router-by-hand
 
 # 创建 package.json
 cat > package.json << 'EOF'
 {
-  "name": "my-router-app",
+  "name": "react-router-by-hand",
   "version": "1.0.0",
   "private": true,
   "dependencies": {

@@ -1,5 +1,5 @@
 {
-  "name": "my-router-app",
+  "name": "react-router-by-hand",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
